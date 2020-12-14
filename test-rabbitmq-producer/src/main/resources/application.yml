@@ -1,0 +1,11 @@
+server:
+  port: 44000
+spring:
+  application:
+    name: test-rabbitmq-producer
+  rabbitmq:
+    host: codeyaa.com
+    port: 5672
+    username: guest
+    password: cn.mq183
+    virtualHost: /
